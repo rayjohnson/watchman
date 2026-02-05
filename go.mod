@@ -2,12 +2,12 @@ module github.com/moov-io/watchman
 
 go 1.24.0
 
-toolchain go1.25.5
+toolchain go1.25.7
 
 require (
-	fyne.io/fyne/v2 v2.7.1
+	fyne.io/fyne/v2 v2.7.2
 	github.com/abadojack/whatlanggo v1.0.1
-	github.com/adamdecaf/merge v0.2.1
+	github.com/adamdecaf/merge v0.2.2
 	github.com/antchfx/htmlquery v1.3.5
 	github.com/bbalet/stopwords v1.0.0
 	github.com/dongri/phonenumber v0.1.12
@@ -17,19 +17,19 @@ require (
 	github.com/jmoiron/sqlx v1.4.0
 	github.com/knieriem/odf v0.1.0
 	github.com/moov-io/base v0.60.0
-	github.com/moov-io/iso3166 v0.3.0
+	github.com/moov-io/iso3166 v0.4.0
 	github.com/openvenues/gopostal v0.0.0-20240426055609-4fe3a773f519
 	github.com/pariz/gountries v0.1.6
 	github.com/stretchr/testify v1.11.1
-	github.com/urfave/cli/v3 v3.6.1
+	github.com/urfave/cli/v3 v3.6.2
 	github.com/vmihailenco/msgpack/v5 v5.4.1
 	github.com/xrash/smetrics v0.0.0-20250705151800-55b8f293f342
 	go.opentelemetry.io/otel v1.40.0
 	go.opentelemetry.io/otel/trace v1.40.0
 	go.uber.org/automaxprocs v1.6.0
-	golang.org/x/net v0.47.0
+	golang.org/x/net v0.49.0
 	golang.org/x/sync v0.19.0
-	golang.org/x/text v0.32.0
+	golang.org/x/text v0.33.0
 	golang.org/x/time v0.14.0
 )
 
@@ -46,7 +46,7 @@ require (
 	cloud.google.com/go/monitoring v1.24.2 // indirect
 	cloud.google.com/go/spanner v1.86.0 // indirect
 	filippo.io/edwards25519 v1.1.0 // indirect
-	fyne.io/systray v1.11.1-0.20250603113521-ca66a66d8b58 // indirect
+	fyne.io/systray v1.12.0 // indirect
 	github.com/BurntSushi/toml v1.5.0 // indirect
 	github.com/GoogleCloudPlatform/grpc-gcp-go/grpcgcp v1.5.3 // indirect
 	github.com/GoogleCloudPlatform/opentelemetry-operations-go/detectors/gcp v1.29.0 // indirect
@@ -142,11 +142,11 @@ require (
 	go.opentelemetry.io/proto/otlp v1.7.1 // indirect
 	go.yaml.in/yaml/v2 v2.4.2 // indirect
 	go.yaml.in/yaml/v3 v3.0.4 // indirect
-	golang.org/x/crypto v0.45.0 // indirect
-	golang.org/x/exp v0.0.0-20251209150349-8475f28825e9 // indirect
+	golang.org/x/crypto v0.47.0 // indirect
+	golang.org/x/exp v0.0.0-20260112195511-716be5621a96 // indirect
 	golang.org/x/image v0.24.0 // indirect
 	golang.org/x/oauth2 v0.31.0 // indirect
-	golang.org/x/sys v0.38.0 // indirect
+	golang.org/x/sys v0.40.0 // indirect
 	google.golang.org/api v0.251.0 // indirect
 	google.golang.org/genproto v0.0.0-20250804133106-a7a43d27e69b // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20250825161204-c5933d9347a5 // indirect
